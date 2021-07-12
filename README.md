@@ -87,8 +87,8 @@ For consonants with slashes, the left hand side reprsents the unmarked (i.e. spi
 
 ## Contributors
 
-- Rav Bookworm (?)
 - Marina Burstein
 - Eva Ekselius
 - Natalie Lantz
 - Patric Joshua Lebenswerd
+- Ute Steyer
