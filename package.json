@@ -1,0 +1,45 @@
+{
+  "name": "hebreiska-translitteration",
+  "version": "0.0.0",
+  "description": "a package for transliterating Hebrew to Swedish",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "clear && jest",
+    "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "charlesLoder",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsdoc": "^35.4.3",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/Taatik/hebreiska-translitteration/issues"
+  },
+  "homepage": "https://github.com/Taatik/hebreiska-translitteration",
+  "dependencies": {
+    "havarotjs": "^0.5.0"
+  }
+}
