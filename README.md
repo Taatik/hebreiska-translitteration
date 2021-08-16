@@ -1,3 +1,5 @@
+![Hebreiska Translitteration](./hebreiska-translitteration-2400.png)
+
 # Hebreiska Translitteration
 
 A tool for transliterating liturgical Hebrew texts to Swedish orthography.
@@ -13,7 +15,7 @@ Funding for this module was graciously provided by [Educating for Impact](https:
 
 ### npm
 
-`npm install github:taatik/hebreiska-translitteration`
+`npm install github:Taatik/hebreiska-translitteration`
 
 ### source
 
