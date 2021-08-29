@@ -1,6 +1,6 @@
 {
   "name": "hebreiska-translitteration",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a package for transliterating Hebrew to Swedish",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
