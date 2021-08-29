@@ -11,7 +11,7 @@ const mapText = (text: string) =>
 export const syllableRules = (syl: Syllable): string => {
   let returnTxt: string = "";
   const taamim = /[\u{0590}-\u{05AF}\u{05BD}\u{05BF}]/gu;
-  const sylTxt = syl.text.replaceAll(taamim, "");
+  const sylTxt = syl.text.replace(taamim, "");
   const isFinal = syl.isFinal;
   const isClosed = syl.isClosed;
 
