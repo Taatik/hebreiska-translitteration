@@ -40,6 +40,6 @@
   },
   "homepage": "https://github.com/Taatik/hebreiska-translitteration",
   "dependencies": {
-    "havarotjs": "^0.5.2"
+    "havarotjs": "^0.5.3"
   }
 }
