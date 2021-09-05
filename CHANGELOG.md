@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 — 2021-09-05
+
+### Change
+
+- update havarotjs for improved qamets qatan handling
+
 ## 1.0.3 — 2021-08-29
 
 ### Changed
